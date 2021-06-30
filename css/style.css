@@ -3,6 +3,18 @@ h1{
     margin: 0%;
     text-align: center;
 }
+
+#container1{
+    text-align: left;
+    float: right;
+}
 #container2{
     text-align: right;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
