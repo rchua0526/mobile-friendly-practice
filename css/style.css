@@ -1,7 +1,14 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
 h1{
-    padding-top: 0;
-    margin: 0%;
     text-align: center;
+}
+
+.container{
+    background-image: url("wave.png");
 }
 
 #container1{
@@ -21,4 +28,34 @@ footer{
     color: white;
     padding-top: 20px;
     padding-bottom: 40px;
+}
+
+header{
+    background-color: orange;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+@media (min-width: 480px){
+    header{
+        background-color: green;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width:768px){
+    header{
+        background-color: blue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    header{
+        background-color: red;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
